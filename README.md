@@ -30,10 +30,6 @@ Georgian, Megrelian, and Svan describe the **username test data**. They do not s
 
 The incorrect-credentials case verifies the live, observed rejection message `მონაცემები არასწორია` and checks that the login form remains visible, rather than assuming that the URL does not change.
 
-## QA observation: whitespace username
-
-For a username containing only spaces and an empty password, the currently observed UI preserves the spaces and does not mark the username field with its existing `invalid` state. The password is marked invalid. This is a recorded application behavior, not an automatically confirmed product bug; its acceptability depends on the product's validation requirements.
-
 ## Project structure
 
 ```text
