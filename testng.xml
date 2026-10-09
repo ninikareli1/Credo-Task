@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Credo business internet banking UI tests" verbose="1">
+    <test name="Negative authentication">
+        <classes>
+            <class name="ge.credo.automation.tests.NegativeAuthenticationTest"/>
+        </classes>
+    </test>
+</suite>
